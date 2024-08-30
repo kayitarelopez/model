@@ -124,8 +124,8 @@ hr{
     gap: 60px;
 }
 .images img{
-    width: 350px;
-    height: 350px;
+    width: 380px;
+    height: 450px;
 }
 .icons{
     display: flex;
@@ -381,6 +381,7 @@ form textarea{
     border-radius: 5px;
     background-color: #f7f7f7;
     color: #333;
+    font-size: 20px;
 }
 form input :focus,
 form textarea :focus{
@@ -439,4 +440,25 @@ form button :hover{
     margin-top: 60px;
     cursor: pointer;
     font-size: 25px;
+}
+.imageels{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    
+}
+.imageels h2{
+    color: rgb(247, 240, 240);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.back-btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 30px;
 }
